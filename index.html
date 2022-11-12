@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <style>
+        body {
+            background-color: cadetblue;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1><ins>Idade de um grupo</ins></h1>
+    <p>
+        <div id="formulario_nome">Dijite o 1° nome:</div> <input type="text" name="nomes" id="nome">
+    </p> 
+       
+    <p>
+        <div>Dijite a idade:</div> <input type="number" name="idades" id="idade">
+    </p> 
+    <br>
+    <input type="button" value="Pronto" id = "BotaoPronto" onclick="verificar()">
+    <input type="button" value="Verificar Dados" id = "BotaoDados" disabled onclick="dados()" >
+    <input type="button" value="Repitir" id = "BotaoRepitir" onclick="repitir()" disabled>
+
+    <p><div id = "resp_dados"></div></p>
+    <p><div id = "resp_resultadoTOT"></div></p>
+    <script src="script.js"></script>
+</body>
+</html>
